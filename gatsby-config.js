@@ -6,7 +6,7 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Emma - Gatsby Starter Portfolio`,
+    siteTitleAlt: `Video Arch - KJH's Portfolio`,
   },
   plugins: [
     {
@@ -25,7 +25,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Emma - @lekoarts/gatsby-theme-emma`,
-        short_name: `Emma`,
+        short_name: `VA`,
         description: `Minimalistic bright portfolio with full-width grid and large images`,
         start_url: `/`,
         background_color: `#fff`,
